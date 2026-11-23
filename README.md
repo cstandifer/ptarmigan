@@ -193,7 +193,7 @@ The clock runs 5 years per minute, pauses at 2026 for "Strong climate action" or
 AI helps develop the software and research. It does not run inside the experience.
 
 - **Claude (Anthropic)** via Claude Code: planning, research, writing drafts of docs and code.
-- Nine agents defined in `.claude/agents/`: researcher, avian-expert, environmental-scientist, historian, data-scientist, world-builder, engine-developer, checker, code-reviewer. The expert agents are **research personas, not real experts**. Their reviews are not expert validation.
+- Seventeen agents defined in `.claude/agents/`. Builders and reviewers: researcher, avian-expert, environmental-scientist, historian, data-scientist, world-builder, engine-developer, experience-designer, checker, code-reviewer. Advisory review seats adapted from the Hello World agent library (read only): skeptic, ux-researcher, visual-designer, accessibility-advocate, privacy-ethics-officer, producer, game-designer. The expert agents are **research personas, not real experts**. Their reviews are not expert validation.
 - Agents propose and build. Creative decisions and approvals are mine.
 
 ### Source credits
