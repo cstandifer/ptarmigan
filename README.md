@@ -1,5 +1,9 @@
 # Ptarmigan
 
+![A 3D map of the Chamonix valley with favorable rock ptarmigan habitat in green, present day](docs/images/ptarmigan-habitat-present-atlas-mont-blanc.gif)
+
+*Map: Atlas Mont-Blanc (CREA Mont-Blanc), used for educational purposes.*
+
 You are a rock ptarmigan above Chamonix, living through what people and a warming climate do to your ground from 1850 to 2100.
 
 Process page for the Hello World final project (SVA MFA Interaction Design, Fall 2026). Milestone: proposal and spike, November 23. Next: prototype Nov 30, dry run Dec 7, final presentation Dec 14.
