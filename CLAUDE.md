@@ -42,9 +42,23 @@ The spike (Nov 23) is the one exception: run the `checker` only, so labels and p
 | data-scientist | Turns vetted facts into the shared data file | `data/data.json`, `data/methods.md` |
 | world-builder | Blender: terrain, scale, props, bird model | `world/` |
 | engine-developer | Three.js scene, movement, camera, year system, chapters | `web/` |
-| experience-designer | Immersion, core loop, daily tasks, pacing of slow change, onboarding, session length, ending options | `docs/design/` |
+| experience-designer | Immersion, which daily tasks exist and why, pacing of slow change, onboarding, session length, ending options. The game designer reviews the moment-to-moment feel of each task | `docs/design/` |
 | checker | Facts against sources, labels, runs the build | `reviews/checks/` |
 | code-reviewer | Readability for a human | `reviews/code/` |
+
+
+### Review seats (advisory, read only)
+These seven read and give feedback in chat. They write nothing.
+
+| Agent | Seat | Looks at |
+|---|---|---|
+| skeptic | Slop detector | Every visitor-facing claim against its data status and place name |
+| ux-researcher | UX researcher | Testers, visitors arriving mid-loop, what people actually understand |
+| visual-designer | Art director | Storyboard, HUD, habitat colors, status labels as part of the look |
+| accessibility-advocate | Accessibility | Color-only cues, reduced motion, sound, the 30-second choice, keyboard play |
+| privacy-ethics-officer | Privacy and ethics | Course ethics check, image credits, licenses, public repo, AI disclosure |
+| producer | Production | Dates, scope, dependencies, what to cut |
+| game-designer | Game design | Moment to moment as the bird: the loop inside each task, controls, feedback, game feel, the first 30 seconds. Experience designer owns the decades |
 
 Flow: researcher finds, experts (avian, environmental, historian) interpret, data scientist structures, builders build, checker and code reviewer review, Caitlin approves.
 
