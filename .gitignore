@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Copyrighted papers: cited in research/sources-log.md, not shared
+research/sources/*.pdf
+
+# Local backups
+docs/.README-before-*
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Large Blender working files (exports in world/exports/ are kept)
+*.blend1
+*.blend2
+
+# Editors and Python
+.vscode/
+__pycache__/
+*.pyc
+node_modules/

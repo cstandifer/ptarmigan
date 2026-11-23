@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ptarmigan spike</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Three.js pinned to one version, loaded from a CDN -->
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <canvas id="scene" aria-label="A stand-in mountain slope with a stand-in ptarmigan"></canvas>
+
+  <div id="you-label" aria-hidden="true">You</div>
+
+  <div id="standin-banner" role="note">
+    Spike. Stand-in slope, bird, trail, huts, mountains and glacier. Heights and trail states are placeholders, not real data. History markers are sourced.
+  </div>
+
+  <section id="panel">
+    <div id="year-row">
+      <span id="year-label"></span>
+      <span id="future-label"></span>
+    </div>
+    <ul id="values"></ul>
+    <p id="bird-status"></p>
+    <ul id="legend">
+      <li><span class="swatch" style="background:#2f4a2b"></span>Forest, below the treeline (dark line)</li>
+      <li><span class="swatch" style="background:#e0a23a"></span>Your habitat band (amber line at its bottom)</li>
+      <li><span class="swatch" style="background:#f4f7fa"></span>Snow, above the snowline</li>
+      <li><span class="swatch" style="background:#7d5e3c"></span>Hiking trail: worn wider over the years</li>
+    </ul>
+  </section>
+
+  <div id="event" role="status"></div>
+
+  <section id="clock">
+    <button id="play" type="button">Pause</button>
+    <label for="year-slider" class="sr-only">Year</label>
+    <input id="year-slider" type="range" step="1">
+    <span id="clock-note"></span>
+  </section>
+
+  <p id="keys">Arrow keys or WASD to walk. Shift to run. Space to pause the clock. Scroll or Z to zoom out.</p>
+
+  <dialog id="future-choice">
+    <h2>You have reached today.</h2>
+    <p>Which future does the slope walk into?</p>
+    <p class="dialog-note">Both futures use placeholder numbers. No study is linked yet.</p>
+    <div id="future-buttons"></div>
+  </dialog>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

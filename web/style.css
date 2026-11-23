@@ -1,0 +1,64 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; overflow: hidden; background: #c9d6df; }
+body { font: 15px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; color: #1d2329; }
+#scene { display: block; width: 100vw; height: 100vh; }
+
+#standin-banner {
+  position: fixed; top: 12px; left: 50%; transform: translateX(-50%);
+  padding: 6px 14px; border: 2px dashed #7a4b00; border-radius: 6px;
+  background: #fff4dc; color: #4a2e00; font-weight: 600; font-size: 13px;
+}
+
+#panel {
+  position: fixed; top: 56px; left: 16px; width: 340px;
+  padding: 12px 14px; border-radius: 10px; background: rgba(255,255,255,0.9);
+}
+#year-row { display: flex; align-items: baseline; gap: 10px; }
+#year-label { font-size: 34px; font-weight: 700; font-variant-numeric: tabular-nums; }
+#future-label { font-size: 13px; font-weight: 600; }
+#values { list-style: none; margin: 8px 0; padding: 0; }
+#values li > span:last-child { white-space: nowrap; }
+#values li { display: flex; justify-content: space-between; gap: 8px; padding: 3px 0; border-top: 1px solid #e3e7ea; }
+.status {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 1px 6px; border-radius: 4px; border: 1px dashed currentColor; color: #7a4b00;
+}
+#bird-status { margin: 6px 0 0; font-weight: 600; }
+#legend { list-style: none; margin: 10px 0 0; padding: 8px 0 0; border-top: 1px solid #e3e7ea; font-size: 12px; }
+#legend li { display: flex; align-items: center; gap: 8px; padding: 1px 0; }
+.swatch { width: 14px; height: 14px; border-radius: 3px; border: 1px solid #8a8580; flex: none; }
+.dialog-note { font-size: 13px; color: #7a4b00; font-weight: 600; }
+
+#clock {
+  position: fixed; left: 16px; right: 16px; bottom: 40px;
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 14px; border-radius: 10px; background: rgba(255,255,255,0.9);
+}
+#clock input { flex: 1; }
+#clock button { font: inherit; padding: 4px 12px; min-width: 80px; }
+#clock-note { font-size: 13px; min-width: 160px; }
+
+#keys { position: fixed; bottom: 8px; left: 16px; margin: 0; padding: 2px 8px; border-radius: 6px; font-size: 13px; background: rgba(255,255,255,0.85); }
+#clock { bottom: 40px; }
+
+#event {
+  position: fixed; left: 50%; bottom: 104px; transform: translateX(-50%);
+  max-width: 560px; padding: 10px 16px; border-radius: 10px;
+  background: rgba(29,35,41,0.88); color: #fff; font-size: 15px;
+  opacity: 0; transition: opacity 0.5s; pointer-events: none;
+}
+#event.show { opacity: 1; }
+#event .status { color: #ffd38a; margin-left: 6px; }
+#event small { display: block; margin-top: 2px; color: #c9d2d9; }
+dialog { border: none; border-radius: 12px; padding: 20px 24px; max-width: 420px; }
+dialog h2 { margin: 0 0 6px; font-size: 20px; }
+#future-buttons { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+#future-buttons button { font: inherit; text-align: left; padding: 10px 12px; cursor: pointer; }
+#future-buttons small { display: block; color: #555; }
+
+#you-label {
+  position: fixed; transform: translate(-50%, -170%); pointer-events: none;
+  padding: 2px 8px; border-radius: 4px; background: #d1301f; color: #fff;
+  font-size: 12px; font-weight: 700; opacity: 0; transition: opacity 0.3s;
+}
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }

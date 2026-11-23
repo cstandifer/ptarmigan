@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "site": "Aiguilles Rouges slope near Lac Blanc",
+    "updated": "2026-11-23",
+    "today_year": 2026,
+    "first_year": 1850,
+    "last_year": 2100,
+    "elevation_offset_m": {
+      "value": 1800,
+      "status": "placeholder",
+      "note": "spike stand-in: height 0 on the stand-in slope is 1800 m"
+    },
+    "slope_top_m": {
+      "value": 3200,
+      "status": "placeholder",
+      "note": "spike stand-in: top of the stand-in slope"
+    },
+    "futures": {
+      "action": {
+        "label": "Strong climate action",
+        "pathway": "RCP2.6 / SSP1-2.6 (not yet sourced)"
+      },
+      "usual": {
+        "label": "Business as usual",
+        "pathway": "RCP8.5 / SSP5-8.5 (not yet sourced)"
+      }
+    },
+    "notes": "SPIKE MODE. Heights and trail states are round stand-ins so the scene can run, not real data. Events are sourced and reviewed (research/reviews/history-2026-11-23.md); their wording is a draft for Caitlin."
+  },
+  "years": [
+    {
+      "year": 1850,
+      "treeline_m": {
+        "value": 2000,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "snowline_m": {
+        "value": 2600,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_band_low_m": {
+        "value": 2100,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_band_high_m": {
+        "value": 3200,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_share": {
+        "value": null,
+        "status": "missing",
+        "sources": []
+      },
+      "note": "Start of the timeline",
+      "trail_condition": {
+        "value": "single",
+        "status": "placeholder",
+        "sources": [],
+        "note": "visual state, no measured TMB data"
+      }
+    },
+    {
+      "year": 1950,
+      "treeline_m": {
+        "value": 2000,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "snowline_m": {
+        "value": 2600,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_band_low_m": {
+        "value": 2100,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_band_high_m": {
+        "value": 3200,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_share": {
+        "value": null,
+        "status": "missing",
+        "sources": []
+      },
+      "note": "",
+      "trail_condition": {
+        "value": "single",
+        "status": "placeholder",
+        "sources": [],
+        "note": "visual state, no measured TMB data"
+      }
+    },
+    {
+      "year": 2003,
+      "treeline_m": {
+        "value": 2000,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "snowline_m": {
+        "value": 2700,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_band_low_m": {
+        "value": 2100,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_band_high_m": {
+        "value": 3200,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_share": {
+        "value": null,
+        "status": "missing",
+        "sources": []
+      },
+      "note": "First UTMB",
+      "trail_condition": {
+        "value": "widened",
+        "status": "placeholder",
+        "sources": [],
+        "note": "visual state, no measured TMB data"
+      }
+    },
+    {
+      "year": 2026,
+      "treeline_m": {
+        "value": 2100,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "snowline_m": {
+        "value": 2800,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_band_low_m": {
+        "value": 2200,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_band_high_m": {
+        "value": 3200,
+        "status": "placeholder",
+        "sources": [],
+        "note": "spike stand-in"
+      },
+      "habitat_share": {
+        "value": null,
+        "status": "missing",
+        "sources": []
+      },
+      "note": "Today",
+      "trail_condition": {
+        "value": "braided",
+        "status": "placeholder",
+        "sources": [],
+        "note": "visual state, no measured TMB data"
+      }
+    },
+    {
+      "year": 2050,
+      "treeline_m": {
+        "action": {
+          "value": 2100,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        },
+        "usual": {
+          "value": 2200,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        }
+      },
+      "snowline_m": {
+        "action": {
+          "value": 2800,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        },
+        "usual": {
+          "value": 2900,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        }
+      },
+      "habitat_band_low_m": {
+        "action": {
+          "value": 2200,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        },
+        "usual": {
+          "value": 2300,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        }
+      },
+      "habitat_band_high_m": {
+        "action": {
+          "value": 3200,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        },
+        "usual": {
+          "value": 3200,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        }
+      },
+      "habitat_share": {
+        "action": {
+          "value": null,
+          "status": "missing",
+          "sources": []
+        },
+        "usual": {
+          "value": null,
+          "status": "missing",
+          "sources": []
+        }
+      },
+      "note": "",
+      "trail_condition": {
+        "action": {
+          "value": "restored",
+          "status": "scenario",
+          "sources": [
+            "S20"
+          ],
+          "note": "a possible future: trail repair, built from real precedents"
+        },
+        "usual": {
+          "value": "braided",
+          "status": "placeholder",
+          "sources": [],
+          "note": "visual state, no measured TMB data"
+        }
+      }
+    },
+    {
+      "year": 2100,
+      "treeline_m": {
+        "action": {
+          "value": 2200,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        },
+        "usual": {
+          "value": 2400,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        }
+      },
+      "snowline_m": {
+        "action": {
+          "value": 2900,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        },
+        "usual": {
+          "value": 3100,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        }
+      },
+      "habitat_band_low_m": {
+        "action": {
+          "value": 2300,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        },
+        "usual": {
+          "value": 2500,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        }
+      },
+      "habitat_band_high_m": {
+        "action": {
+          "value": 3200,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        },
+        "usual": {
+          "value": 3200,
+          "status": "placeholder",
+          "sources": [],
+          "note": "spike stand-in"
+        }
+      },
+      "habitat_share": {
+        "action": {
+          "value": null,
+          "status": "missing",
+          "sources": []
+        },
+        "usual": {
+          "value": null,
+          "status": "missing",
+          "sources": []
+        }
+      },
+      "note": "End of the timeline",
+      "trail_condition": {
+        "action": {
+          "value": "restored",
+          "status": "scenario",
+          "sources": [
+            "S20"
+          ],
+          "note": "a possible future: trail repair, built from real precedents"
+        },
+        "usual": {
+          "value": "braided",
+          "status": "placeholder",
+          "sources": [],
+          "note": "visual state, no measured TMB data"
+        }
+      }
+    }
+  ],
+  "facts": [],
+  "events": [
+    {
+      "year": 1821,
+      "label": "Chamonix guides form the Compagnie des Guides",
+      "sources": [
+        "S28",
+        "S36"
+      ],
+      "status": "measured",
+      "path": "both"
+    },
+    {
+      "year": 1852,
+      "label": "The Mer de Glace makes its last big advance",
+      "sources": [
+        "S25"
+      ],
+      "status": "measured",
+      "path": "both"
+    },
+    {
+      "year": 1860,
+      "label": "Savoy becomes part of France",
+      "sources": [
+        "S34"
+      ],
+      "status": "measured",
+      "path": "both"
+    },
+    {
+      "year": 1901,
+      "label": "The railway reaches Chamonix",
+      "sources": [
+        "S36"
+      ],
+      "status": "measured",
+      "path": "both"
+    },
+    {
+      "year": 1950,
+      "label": "The Tour du Mont Blanc is waymarked (1950 to 1952)",
+      "sources": [
+        "S24"
+      ],
+      "status": "measured",
+      "path": "both"
+    },
+    {
+      "year": 2027,
+      "label": "French TMB towns plan to require a booked bed or bivouac",
+      "sources": [
+        "S22",
+        "S23"
+      ],
+      "status": "projected",
+      "path": "both"
+    }
+  ]
+}
