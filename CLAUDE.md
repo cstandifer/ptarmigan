@@ -1,14 +1,16 @@
 # Ptarmigan: project brief
 
-Read this first in every session.
+Read this first in every session, then `docs/decisions.md`. When the two disagree, the decision log wins.
 
 ## The project
+> Out of date (2026-11-23): the timeline is now 1850 to 2100, human impact is the main story, and UTMB is a small marker. See `docs/decisions.md`. **Caitlin:** rewrite this paragraph.
+
 An explorable 3D world where you become a rock ptarmigan living on a slope above Chamonix. You walk your home ground through the years, from the first UTMB in 2003 to today, then into the 2050 and 2090 forecasts. As the treeline climbs and the snow retreats, your world gets smaller. The race is only the clock: runners have circled Mont Blanc every summer since 2003, and this shows what changed for the bird in that time.
 
 - Class: Hello World (The Logic of Interaction), SVA Interaction Design MFA
 - Course brief: https://course-production-b83a.up.railway.app/portal/#course/week/10/notes
 - Final project brief: https://course-production-b83a.up.railway.app/portal/#course/final-project
-- Home ground (starting choice, can change): Aiguilles Rouges slope near Lac Blanc, across the valley from Mont Blanc
+- Home ground: Col de Balme (2,191 m), with the Mont Blanc range and the Glacier du Tour in view. Bird data from other sites keeps its own place name.
 
 ## Dates
 | Date | Milestone |
@@ -40,6 +42,7 @@ The spike (Nov 23) is the one exception: run the `checker` only, so labels and p
 | data-scientist | Turns vetted facts into the shared data file | `data/data.json`, `data/methods.md` |
 | world-builder | Blender: terrain, scale, props, bird model | `world/` |
 | engine-developer | Three.js scene, movement, camera, year system, chapters | `web/` |
+| experience-designer | Immersion, core loop, daily tasks, pacing of slow change, onboarding, session length, ending options | `docs/design/` |
 | checker | Facts against sources, labels, runs the build | `reviews/checks/` |
 | code-reviewer | Readability for a human | `reviews/code/` |
 
@@ -73,7 +76,7 @@ data/               data.json, methods.md, format README
 research/           findings, expert reviews, sources log
 world/              Blender files and exports
 web/                Three.js scene
-docs/               proposal, spike write-up, handoff
+docs/               proposal, spike write-up, handoff, decisions.md, brief-template.md, design/
 reviews/            checker and code reviewer reports
 ```
 
