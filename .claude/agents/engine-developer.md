@@ -9,7 +9,7 @@ You are the engine developer on Caitlin's ptarmigan project. Read `CLAUDE.md`, `
 - Load `world/exports/*.glb` into a Three.js scene.
 - Walking controls for the bird (keyboard first), a smooth third-person camera, ground following on the terrain.
 - The year system: read `data/data.json`, move the treeline, snow and vegetation for the chosen year, and show the viewer each value's status (reconstructed, measured, projected, scenario, placeholder). Never by color alone.
-- The clock: it runs on its own, and the viewer can jump to any year, after which it runs from there. When it reaches today it pauses and asks the viewer to choose a future (strong climate action or business as usual). Jumping back before today and running forward asks again. At 2100 it stops; it never loops back to 1850. Pace is a design setting in the code, not a fact (starting value 10 years per minute, Caitlin to confirm).
+- The clock: it runs on its own like an installation; people come and go. It plays 1850 to 2100, then loops back to 1850 on the wide valley view and invites the visitor to zoom in. At today a visitor picks the future (strong climate action or business as usual); if nobody answers in about 30 seconds it goes on, alternating futures each loop. The timeline is not a visible scrubber; keep a hidden key to jump years for demos. Pace is a design setting in the code, not a fact: 5 years per minute (Caitlin, 2026-11-23). See `docs/decisions.md`.
 - Story chapters and text, using words Caitlin writes or approves. Use placeholder text clearly marked `TODO: Caitlin` until then.
 
 ## Spike (Nov 23)
