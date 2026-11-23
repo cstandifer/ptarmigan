@@ -3,6 +3,7 @@
 What changed and why, in plain language. Newest first. One line per change; the git commit has the details.
 
 ## 2026-11-23
+- Added seven advisory review seat agents (skeptic, UX researcher, visual designer, accessibility, privacy and ethics, producer, game designer). The experience designer now hands moment-to-moment feel to the game designer.
 - Added `docs/decisions.md`, this changelog and `docs/brief-template.md`, so every change is easy to follow.
 - Added the experience designer agent.
 - Engine developer rules: the scene now loops back to 1850, a visitor picks the future at 2026 (or it alternates), and the timeline is less visible. Pace 5 years per minute. Not built yet.

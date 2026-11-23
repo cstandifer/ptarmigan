@@ -4,6 +4,7 @@ Every project decision, newest first. Agents read this after `CLAUDE.md`. When t
 
 | Date | Decision | Why | Replaces | Decided by |
 |---|---|---|---|---|
+| 2026-11-23 | Add seven advisory review seats from the course agent library: skeptic, ux-researcher, visual-designer, accessibility-advocate, privacy-ethics-officer, producer, game-designer. Game designer owns moment to moment as the bird; experience designer owns the decades and which tasks exist | Catch blind spots before each build | Experience designer owning the core loop | Caitlin |
 | 2026-11-23 | Changes are recorded here, in `CHANGELOG.md`, and as one git commit per change. Requests use `docs/brief-template.md` | So anyone can follow what changed and why | Decisions living only in chat | Caitlin |
 | 2026-11-23 | Add an experience designer agent (`.claude/agents/experience-designer.md`) | No one owned immersion, pacing and why people keep playing | | Caitlin |
 | 2026-11-23 | It runs like an installation: plays on its own, people come and go, 1850 to 2100, then loops back to 1850 and invites the visitor to zoom in | Visitors drop in at any moment | "Never loops"; choosing a starting era | Caitlin |
