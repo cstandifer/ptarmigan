@@ -183,7 +183,7 @@ The clock runs 5 years per minute, pauses at 2026 for "Strong climate action" or
 - Real-world fact checking (for example CREA Mont-Blanc in Chamonix) is a human step. Not planned this term for lack of time; a known limit.
 
 ### Support needs
-**Caitlin:**
+**Caitlin:** Catching blind spots on what I am designing. I have reviewers and agents, but am I missing anything? Are there ways to prompt the design to make it more efficient and accurate the first time around? And to make all changes after that cleaner, so any human could look at them and understand the changes I ask for?
 
 ### AI role and credits
 AI helps develop the software and research. It does not run inside the experience.
