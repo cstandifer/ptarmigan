@@ -3,6 +3,7 @@
 What changed and why, in plain language. Newest first. One line per change; the git commit has the details.
 
 ## 2026-11-23
+- Added working modes (`docs/modes/`) and the standing rule in `CLAUDE.md`: an overview and Caitlin's OK before any work.
 - Added seven advisory review seat agents (skeptic, UX researcher, visual designer, accessibility, privacy and ethics, producer, game designer). The experience designer now hands moment-to-moment feel to the game designer.
 - Added `docs/decisions.md`, this changelog and `docs/brief-template.md`, so every change is easy to follow.
 - Added the experience designer agent.

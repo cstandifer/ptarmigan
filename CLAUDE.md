@@ -20,6 +20,11 @@ An explorable 3D world where you become a rock ptarmigan living on a slope above
 | Dec 7 | Dry run |
 | Dec 14 | Final presentation |
 
+## Working modes
+Read `docs/modes/README.md`. Director is the default; the other modes are research-first, reviewer, scribe, orchestrator and tutor (light, off by default).
+
+**Standing rule:** before any work, give Caitlin a short overview and wait for her explicit OK. This covers small changes too. Pushes and tag moves need their own OK.
+
 ## Who decides what
 Caitlin is the director. She owns the story, the look, the voice and every approval. Agents propose and build; they do not make creative decisions on her behalf. When in doubt, ask her.
 
