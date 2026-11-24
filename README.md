@@ -132,7 +132,9 @@ Known gaps: no published treeline or habitat reconstruction for Mont Blanc befor
 
 ---
 
-## 3. Small experiment (spike)
+## Process and evidence
+
+### 3. Small experiment (spike)
 
 Full record: [`docs/spike.md`](docs/spike.md)
 

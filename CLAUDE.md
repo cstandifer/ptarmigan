@@ -25,6 +25,8 @@ Read `docs/modes/README.md`. Director is the default; the other modes are resear
 
 **Standing rule:** before any work, give Caitlin a short overview and wait for her explicit OK. This covers small changes too. Pushes and tag moves need their own OK.
 
+**Branches:** big or risky changes (new mechanic, terrain or world, timeline rework) go on a short branch, days not weeks, and merge into main only when Caitlin says it is good. Small safe edits go straight to main. Always tell her which branch we are on, and before every commit, merge or push, say which branch or main it lands on. Submission tags sit on main, so deadline work must be merged first.
+
 ## Who decides what
 Caitlin is the director. She owns the story, the look, the voice and every approval. Agents propose and build; they do not make creative decisions on her behalf. When in doubt, ask her.
 

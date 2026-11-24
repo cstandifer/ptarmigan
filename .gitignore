@@ -19,3 +19,10 @@ docs/.README-before-*
 __pycache__/
 *.pyc
 node_modules/
+
+# Course material (not my work)
+course/
+
+# Secrets: never commit these
+.env
+.env.*
